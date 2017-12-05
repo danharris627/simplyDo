@@ -3,29 +3,19 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Staff records</h1>
 
   {{> hello}}
-  {{> info}}
 </body>
 
 <template name="hello">
-    <!-- readd this once git has committed 
+  <!-- get input from user --> 
   <form>
   Name: <input type="text" name="name"><br>
   Age: <input type="text" name="age"><br>
   </form>
--->
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
-
-<template name="info">
-  <h2>Learn Meteor!</h2>
+  <button>Submit data</button>
   <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
   </ul>
 </template>
+
